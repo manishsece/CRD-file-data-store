@@ -6,7 +6,7 @@ import com.file.crud.service.OperationServiceImpl;
 import java.io.File;
 import org.junit.Test;
 
-public class JUnitTesting {
+public class OperationServiceImplTest {
 
     String databaseFile = "database.json";
     String currentPath = System.getProperty("user.dir");
@@ -24,8 +24,7 @@ public class JUnitTesting {
     }
     @Test
     public void shouldThrowExceptionForExistingInvalidKeyAndWithoutTimeToLiveDuringDataCreation()
-        throws ServiceException, InterruptedException {
-        Thread.sleep(1000);
+        throws ServiceException{
         operationService.createData("11","faizabad");
     }
     @Test
