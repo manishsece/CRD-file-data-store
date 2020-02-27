@@ -1,0 +1,12 @@
+target
+!.mvn/wrapper/maven-wrapper.jar
+.cache
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+
+### IntelliJ IDEA ###
+.idea
